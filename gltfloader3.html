@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GLTF Loader</title>
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="../css/examples3d.css" />
+</head>
+
+<body id="present3d">
+ 
+  <h2>IMPORT GLB</h2>
+  
+    <canvas class="webgl">
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "../js/three.js-master/three.js-master/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@<version>/examples/jsm/",
+            "three/min": "https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"     
+             }
+        }
+      </script>
+      
+    <script type="module" src="../js/gltf_script3.js">
+      
+        //import * as THREE from 'three';
+      
+        
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+    <script src="../js/OrbitControls.js"></script>
+ 
+    </canvas>
+
+<div>
+<p><a href="../index.html">Zpět na úvodní stránku</a></p>  
+</div>
+</body>
+</html>

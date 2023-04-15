@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('image/zk.JPG');
+    background-position: center;
+    background-size: cover;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: RGBA(0, 0, 0, 0.3);
+    border-radius: 5px;
+
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 70px;
+    cursor: pointer;
+    padding-right: 5%;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    font-weight:bold;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.row1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.col{
+    flex-basis: 60%;
+    padding-left: 7%;
+}
+.col1{
+    height: 50%;
+    width: 18%;
+    flex-basis: 40%;
+    border-radius: 5px;
+    align-items:start;
+    padding-top: 3%;
+    padding-left: 6%;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+h1{
+    color: black;
+    font-size: 70px;
+}
+p{
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 320px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+.card1{
+    /*background-color: black;*/
+   
+    
+}
+.card1 img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    padding: 5%;
+    
+}
+.card2 img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    padding: 5%;
+}
+.card3{
+   /* background-image: url('image/pic3.jpg');*/
+    
+}
+.card4{
+    /*background-image: url('image/pic4.jpg');*/
+     
+}  
+.card5{
+    /*background-image: url('image/pic5.jpg');*/
+     
+}
+.card6{
+    /*background-image: url('image/pic6.jpg');*/
+     
+}  
+.card:hover{
+    transform: translateY(-10px);
+}
+h3{
+    color: white;
+    text-shadow: 0 0 5px #999;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+}
+.card p a:link{
+    text-decoration: none;
+    color:white;
+    opacity: 1;
+}
+.card p a:visited{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+}
+.card p a:hover{
+    color: white;
+    font-weight:bold;
+    opacity: 1;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 1;
+}
+.card a{
+    text-shadow: 0 0 15px #000;
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 1;
+}
+button a:link{
+    color: black;
+    text-decoration: none;
+ }
+ 
+button a:hover{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+}
+p.about {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    letter-spacing : 1px;
+}
+ 
